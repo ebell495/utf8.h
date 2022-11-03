@@ -1,0 +1,6 @@
+project: utf8.h
+target: utf8h-fuzz
+
+cmds:
+    - cmd: ./utf8h-fuzz
+      libfuzzer: true
